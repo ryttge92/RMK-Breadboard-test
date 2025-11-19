@@ -10,13 +10,16 @@ usb_enable = true
 
 [matrix]
 # Input and output pins are mandatory
-matrix_type = "direct_pin"
-direct_pins = [
-    ["GPIO6"],
-    ["GPIO7"]
+input_pins = ["GPIO6"]
+output_pins = ["GPIO7"]
+
+#matrix_type = "direct_pin"
+#direct_pins = [
+#    ["GPIO6"],
+#    ["GPIO7"]
 # WARNING: Currently row2col/col2row is set in RMK's feature gate, configs here do nothing actually
 # row2col = true
-]
+#]
 
 [layout]
 rows = 1
