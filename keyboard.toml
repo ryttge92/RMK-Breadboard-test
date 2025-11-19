@@ -35,14 +35,14 @@ keys = """
 A
 """
 
-[[input_device.joystick]]
-name = "default"
-pin_x = "GPIO18"
-pin_y = "GPIO17"
-pin_z = "_"
-transform = [[1, 0], [0, 1]]
-bias = [0, 0]
-resolution = 1
+#[[input_device.joystick]]
+#name = "default"
+#pin_x = "GPIO18"
+#pin_y = "GPIO17"
+#pin_z = "_"
+#transform = [[1, 0], [0, 1]]
+#bias = [0, 0]
+#resolution = 1
 
 [ble]
 enabled = true
