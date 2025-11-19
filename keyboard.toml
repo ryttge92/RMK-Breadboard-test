@@ -16,6 +16,7 @@ direct_pins = [
     ["GPIO7"]
 # WARNING: Currently row2col/col2row is set in RMK's feature gate, configs here do nothing actually
 # row2col = true
+]
 
 [layout]
 rows = 1
